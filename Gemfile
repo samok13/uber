@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass'
 gem 'letter_opener'
-gem 'mail'
+#gem 'mail'
 gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
 
 
@@ -55,5 +55,6 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'pg'
+  gem 'mail'
 end
 
