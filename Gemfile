@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'puma'
 gem 'bootstrap-sass'
 gem 'letter_opener'
 #gem 'mail'
