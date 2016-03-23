@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'puma'
 gem 'bootstrap-sass'
 gem 'letter_opener'
-gem 'mail'
 gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
 
 

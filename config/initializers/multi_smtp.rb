@@ -1,4 +1,4 @@
-ActionMailer::Base.sendgrid_settings = {
+sendgrid_settings = {
   address: 'smtp.sendgrid.net',
   port: '587',
   authentication: :plain,
@@ -9,7 +9,7 @@ ActionMailer::Base.sendgrid_settings = {
 }
 #config.action_mailer.delivery_method ||= :smtp
 
-ActionMailer::Base.aws_email_settings = {
+aws_email_settings = {
   access_key_id: ENV['AMAZON_ACCESS_KEY'],
   secret_access_key: ENV['AMAZON_SECRET_KEY']
 }
