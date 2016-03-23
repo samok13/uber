@@ -1,0 +1,9 @@
+
+<%= form_tag @user, url: {action: "create"}, class: "sign-in-form" do  |f|%>
+  <div class="form-group" id="sign-in-form">
+    <%= email_field_tag "user[email]", nil, placeholder: "Email", class: "form-control" %>
+    <br>
+    <%= submit_tag "Submit", class: "btn btn-info form-control" %>
+  </div>
+<% end %>
+
