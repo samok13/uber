@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass'
 gem 'letter_opener'
+gem 'mail'
+gem 'aws-ses', '~> 0.4.4', require: 'aws/ses'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
